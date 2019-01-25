@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="module" src="./script.js"></script>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>TypeShift Solver</h1>
+        <p>
+            This solves any <a href="http://playtypeshift.com">TypeShift</a>
+            puzzle.<br/><br/>
+            For each (vertical) column in the puzzle:
+            <ol>
+                <li>Press the "Add Column" Button.</li>
+                <li>
+                    Type all the letters in this (vertical) column into
+                    the newly created (horizontal) text box.
+                </li>
+            </ol>
+            Then, click the "Solve" button.
+        </p>
+
+        <button class="btnAdd">Add Column</button>
+        <button class="btnSolve">Solve</button>
+        <p class="result"></p>
+
+        <h2>Columns</h2>
+
+        <ol id="columns"></ol>
+
+    </body>
+</html>
