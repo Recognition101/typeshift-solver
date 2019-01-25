@@ -2,4 +2,4 @@
 
 This solves any [TypeShift](http://playtypeshift.com) puzzle.
 
-To use, view it [here](https://github.com/Recognition101/typeshift-solver).
+To use, view it [here](https://recognition101.github.io/typeshift-solver/index.html).
