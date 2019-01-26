@@ -28,7 +28,7 @@ const h = (tag, attrs, children=[]) => {
     return el;
 };
 
-const dictionary = fetch('./words-small.txt')
+const dictionary = fetch('./words-large.txt')
     .then(resp => resp.text())
     .then(txt => new Set(txt.toLowerCase().split('\n')));
 
