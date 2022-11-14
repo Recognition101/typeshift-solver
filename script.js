@@ -47,8 +47,8 @@ const addColumn = () => {
     if (!domColumns) { return null; }
 
     domColumns.appendChild(h('li.column', {}, [
-        h('input.inColumn', { type: 'text' }),
-        h('button.btnRemove', {}, 'Remove')
+        h('input.inColumn', { type: 'text', tabIndex: '1' }),
+        h('button.btnRemove', {tabIndex: '10'}, 'Remove')
     ]));
 };
 
